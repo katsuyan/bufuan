@@ -7,6 +7,19 @@
   -moz-box-shadow:rgba(113, 135, 164, 0.207843) 3px 0px 6px 3px;
   border-radius: 4px;
 }
+
+.box2 time {
+  color: #aaaaaa;
+}
+
+.box2 h4 {
+  font-size: 19px;
+}
+
+.box2 p {
+  line-height: 180%;
+}
+
 .fixed {
     position: fixed;
 }
