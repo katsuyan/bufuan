@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'font1';
+  src: url('../fonts/ipaexm.ttf');
+}
+
+body {
+  background-image: url("../img/background/japanese-paper_00080.jpg");
+}
+
+.title {
+  font-family: "font1";
+}
+
+.footter {
+  background-color: #eeeeee;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.copyright {
+  background-color: #eeeeee;
+}
+
+.copyright p {
+  margin: 0;
+  color: #666666;
+  font-size: 14px
+}
