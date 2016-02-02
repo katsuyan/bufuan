@@ -1,7 +1,9 @@
 .box2 {
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 15px;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 10px;
   background-color: #fff;
   box-shadow:rgba(113, 135, 164, 0.207843) 3px 0px 6px 3px;
   -webkit-box-shadow:rgba(113, 135, 164, 0.207843) 3px 0px 6px 3px;
