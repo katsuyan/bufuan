@@ -11,7 +11,7 @@
 
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/style.css" rel="stylesheet">
-  <link href="../css/news.css" rel="stylesheet">
+  <link href="../css/simple.css" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
@@ -37,9 +37,8 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">日程<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="../contents/date/hukiage.html">鴻巣吹上道場</a></li>
+              <li><a href="../contents/date/fukiage.html">鴻巣吹上道場</a></li>
               <li><a href="../contents/date/urawa.html">浦和道場</a></li>
-              <li><a href="../contents/date/gyoda.html">行田道場</a></li>
               <li><a href="../contents/date/saturday.html">土曜日稽古</a></li>
             </ul>
           </li>
@@ -73,38 +72,26 @@
       <h1>武風庵</h1>
     </div>
 
-    <div class="box1 col-sm-10">
+    <div class="box1">
       <h3>ニュース</h3>
 
+      <!-- 編集箇所 -->
       <div class="box2">
-        <section id="AA" class="container group">
-          <article class="news_main">
-            <h4>ホームページをリニューアルしました。</h4>
-            <time datetime=2016-2-1>
-              <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-              2016年2月1日
-            </time><br><br>
-            <p>
-              ホームページをリニューアルしました。<br>
-              不具合等を見つけましたら、田島または、指導員まで連絡ください。
-            </p>
-          </article>
-        </section>
+        <h4>ホームページをリニューアルしました。</h4>
+        <time datetime=2016-2-1>
+          <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+          2016年2月1日
+        </time><br><br>
+        <p>
+          ホームページをリニューアルしました。<br>
+          不具合等を見つけましたら、田島または、指導員まで連絡ください。
+        </p>
       </div>
+      <!-- 編集箇所終わり -->
 
     </div>
 
-    <div class="box3 col-sm-2">
-      <nav class="bs-docs-sidebar">
-        <ul id="sidebar" class="nav nav-stacked fixed">
-
-          <li><a href="#AA">ホームページをリニューアルしました</a></li>
-
-        </ul>
-      </nav>
-    </div>
-
-  </div><!--/container -->
+  </div>
 
   <div class="footter" id="footer">
     <div class="copyright container">
@@ -116,12 +103,6 @@
   <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="../js/bootstrap.min.js"></script>
   <script type="text/javascript" src="../js/footerFixed.js"></script>
-  <script type="text/javascript">
-  $('body').scrollspy({
-    target: '.bs-docs-sidebar',
-    offset: 40
-  });
-  </script>
   <!-- /js-->
 </body>
 

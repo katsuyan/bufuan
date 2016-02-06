@@ -11,7 +11,7 @@
 
   <link href="../../css/bootstrap.min.css" rel="stylesheet">
   <link href="../../css/style.css" rel="stylesheet">
-  <link href="../../css/news.css" rel="stylesheet">
+  <link href="../../css/simple.css" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
@@ -26,7 +26,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="../index.html">武風庵</a>
+        <a class="navbar-brand" href="../../index.html">武風庵</a>
       </div>
 
       <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -37,9 +37,8 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">日程<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="../date/hukiage.html">鴻巣吹上道場</a></li>
+              <li><a href="../date/fukiage.html">鴻巣吹上道場</a></li>
               <li><a href="../date/urawa.html">浦和道場</a></li>
-              <li><a href="../date/gyoda.html">行田道場</a></li>
               <li><a href="../date/saturday.html">土曜日稽古</a></li>
             </ul>
           </li>
@@ -73,30 +72,22 @@
       <h1>武風庵</h1>
     </div>
 
-    <div class="box1 col-sm-10">
+    <div class="box1">
       <h3>生徒紹介</h3>
 
+      <!-- 編集箇所 -->
       <div class="box2">
-        <section id="AA" class="container group">
-          <article class="news_main">
-            <h4>仲良し姉妹登場</h4>
-            <time datetime=2015-12-20>
-              <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-              2015年12月20日
-            </time><br><br>
-            <img src="../../img/student/student1.jpg" class="img-responsive">
-          </article>
-        </section>
+        <h4>仲良し姉妹登場</h4>
+        <time datetime=2015-12-20>
+          <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+          2015年12月20日
+        </time><br><br>
+        <img src="../../img/student/student1.jpg" class="img-responsive">
       </div>
+      <!-- 編集箇所終わり -->
+
     </div>
 
-    <div class="box3 col-sm-2">
-      <nav class="bs-docs-sidebar">
-        <ul id="sidebar" class="nav nav-stacked fixed">
-          <li><a href="#AA">仲良し姉妹登場</a></li>
-        </ul>
-      </nav>
-    </div>
 
   </div><!--/container -->
 
@@ -110,12 +101,6 @@
   <script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
   <script type="text/javascript" src="../../js/footerFixed.js"></script>
-  <script type="text/javascript">
-  $('body').scrollspy({
-    target: '.bs-docs-sidebar',
-    offset: 40
-  });
-  </script>
   <!-- /js-->
 </body>
 
