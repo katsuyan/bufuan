@@ -1,3 +1,3 @@
 #武風庵ホームページ
 ##リンク
-[武風庵](http://bufuan.html.xdomain.jp)
+<a href="http://bufuan.html.xdomain.jp" target="_blank">武風庵</a>
